@@ -7,6 +7,14 @@ public class RealImage implements Image{
         this.isZoomed = isZoomed;
     }
 
+    public String getFilename() {
+        return filename;
+    }
+
+    public boolean isZoomed() {
+        return isZoomed;
+    }
+
     public void loadImage() {
         System.out.println("Скачиваем изображение" + filename);
     }
